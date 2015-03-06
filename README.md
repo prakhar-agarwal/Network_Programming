@@ -7,4 +7,5 @@ Course Details:
 
 Covers all material from WR Stevens UNIX Network Programming books.
 Programming language of choice is C
+
 Taught by Assistant Professor K.Hari Babu, CSIS Group BITS-Pilani, Pilani Campus
