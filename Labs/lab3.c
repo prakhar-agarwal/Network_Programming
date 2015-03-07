@@ -3,12 +3,6 @@
  * Lab 3 - Assignment
  */
 
-/* NOTE: bsd banner is implemented as printerbanner in linux.
- * 	This file has printerbanner exec command commented out, with just banner command executing.
- * 	Please change to printerbanner if banner command unavailable
- *	
- *	SystemV banner clone package, sysvbanner does not work like bsd banner since it does take stdin input
-*/
 
 #include <sys/types.h>
 #include <unistd.h>
