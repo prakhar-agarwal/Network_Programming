@@ -1,0 +1,8 @@
+Pre Threaded Chat Server:
+
+Running instructions:
+
+make
+make run (or alternatively. ./PreThreadedChatServer <N Thread> <port number>)
+Open Any number of new terminals and type following command
+telnet localhost 5000

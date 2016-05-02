@@ -1,0 +1,9 @@
+I. Write a C program which has at least 3 files. One main.c (having the code for the main function), one function.c (having the helper functions), and one header file for the functions, function.h.
+
+II. Create a makefile (for the above program) which has the following targets. The targets can achieve the described tasks using multiple dependency targets.
+1. build: The default (first) target. It should compile all the c files into object files first, and then compile into a single executable called program.
+2. debug-build: Compiles the above using support for  debugging using gdb.
+3. profile-build: Compiles the above using support for  profiling using gprof.
+4. run: Executes the standard (non-debug/profile) executable.
+5. profile: Runs the code and then profiles it using gprof (using non-verbose output, with both flat profile & call graph). It places the output of gprof in a file program_profile.txt
+6. clean: Cleans everything except the source.
