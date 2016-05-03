@@ -1,5 +1,5 @@
 all:
-	gcc chatserver.c -lpthread -o PreThreadedServer
+	gcc prethreaded.c -lpthread -o PreThreadedServer
 	
 run:
 	./PreThreadedServer 10 5000
